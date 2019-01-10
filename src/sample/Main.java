@@ -17,7 +17,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        File  f     = new File("img.png");
+        File  f     = new File("image.png");
         Image image = new Image(f.toURI().toString());
 
         ImageView view = new ImageView(image);
